@@ -290,10 +290,15 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   margin-bottom: 1rem;
   background: var(--cream-alt);
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.project-media-photo img { width: 100%; height: 170px; object-fit: cover; }
-.project-media-chart { padding: 0.5rem 0.3rem 0; }
-.roc-chart { width: 100%; height: auto; display: block; }
+.project-media-photo { padding: 0; }
+.project-media-photo img { width: 100%; height: 100%; object-fit: cover; }
+.project-media-chart { padding: 0.5rem 0.8rem; }
+.project-media-chart svg { max-width: 100%; max-height: 100%; width: auto; height: auto; }
 .project-index {
   font-size: 0.68rem;
   letter-spacing: 0.12em;
@@ -335,7 +340,7 @@ img { max-width: 100%; display: block; }
 .timeline-date { display: block; font-size: 0.8rem; color: var(--ink-soft); margin-bottom: 0.3em; }
 .timeline-body h4 { font-size: 1.02rem; margin-bottom: 0.3em; }
 .timeline-body p { font-size: 0.92rem; }
-.experience-photo img { border-radius: var(--radius); width: 100%; height: 280px; object-fit: cover; margin-bottom: 1.4rem; }
+.experience-photo img { border-radius: var(--radius); width: 100%; height: 380px; object-fit: cover; object-position: center 20%; margin-bottom: 1.4rem; }
 .experience-photo blockquote {
   font-family: 'Playfair Display', serif;
   font-style: italic;
