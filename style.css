@@ -191,11 +191,10 @@ img { max-width: 100%; display: block; }
   margin: 0.2em 0 0.15em;
 }
 .hero-role {
-  font-size: 1.05rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 1.1rem;
   color: var(--ink-soft);
   margin: 0;
+  max-width: 26em;
 }
 .hero-tagline {
   font-family: 'Playfair Display', serif;
@@ -347,6 +346,29 @@ img { max-width: 100%; display: block; }
   padding-left: 1rem;
 }
 
+/* Background */
+.background {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+  border-top: 1px solid var(--line);
+}
+.bg-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+.bg-inst { font-weight: 600; color: var(--ink); margin: 0 0 0.2em; }
+.bg-degree { color: var(--ink-soft); margin: 0 0 0.3em; }
+.bg-meta { font-size: 0.85rem; color: var(--maroon); margin: 0; }
+.bg-path {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
 /* About */
 .about { max-width: var(--max-w); margin: 0 auto; padding: 4.5rem 1.5rem 5.5rem; }
 .about-inner { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 3rem; align-items: center; }
@@ -374,6 +396,7 @@ img { max-width: 100%; display: block; }
   .hero-image { order: -1; }
   .hero-image img { height: 240px; }
   .pillars-inner { grid-template-columns: 1fr; gap: 1.6rem; }
+  .bg-grid { grid-template-columns: 1fr; gap: 1.2rem; }
   .project-grid { grid-template-columns: 1fr; }
   .experience-inner { grid-template-columns: 1fr; }
   .experience-photo img { height: 220px; }
