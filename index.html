@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Linping Zhang — Finance, Risk, Data</title>
+<meta name="description" content="Portfolio of Linping Zhang — Finance graduate specialising in equity research, credit risk and financial data analysis." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">L<span class="logo-sub">Z</span></a>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="https://www.linkedin.com/in/linping-zhang-807738386" target="_blank" rel="noopener" aria-label="LinkedIn" class="icon-link">in</a>
+      <a href="https://github.com/Linping030205" target="_blank" rel="noopener" aria-label="GitHub" class="icon-link">gh</a>
+      <details class="cv-dropdown">
+        <summary class="btn btn-primary btn-small">Download CV &darr;</summary>
+        <div class="cv-menu">
+          <a href="assets/cv/CV_LinpingZhang_Audit.pdf" download>Audit</a>
+          <a href="assets/cv/CV_LinpingZhang_Data.pdf" download>Data</a>
+          <a href="assets/cv/CV_LinpingZhang_investment.pdf" download>Investment</a>
+          <a href="assets/cv/CV_LinpingZhang_Risk.pdf" download>Risk</a>
+          <a href="assets/cv/CV_LinpingZhang_Treasury.pdf" download>Treasury</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">UCL · Banking and Digital Finance</p>
+        <h1>Linping Zhang</h1>
+        <p class="hero-role">Finance &middot; Risk &middot; Data</p>
+        <div class="rule"></div>
+        <p class="hero-tagline">Turning financial analysis into decision-relevant insight.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View my work &rarr;</a>
+          <a href="#about" class="btn btn-outline">About me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/hero-ucl.jpg" alt="UCL main building portico" />
+        <p class="hero-quote">&ldquo;Better analysis<br>for better<br>decisions.&rdquo;</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <section class="pillars">
+    <div class="pillars-inner">
+      <div class="pillar">
+        <span class="pillar-no">01</span>
+        <h3>Research</h3>
+        <p>Equity analysis, valuation and market research.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-no">02</span>
+        <h3>Risk</h3>
+        <p>Credit modelling, stress testing and model evaluation.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-no">03</span>
+        <h3>Data</h3>
+        <p>Python, financial analytics and applied machine learning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="section-head">
+      <p class="eyebrow">Selected Work</p>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-media project-media-photo">
+          <img src="assets/project-nvidia.jpg" alt="Laptop showing a financial chart, notebook and reference books">
+        </div>
+        <p class="project-index">01 &nbsp;EQUITY RESEARCH &amp; AI</p>
+        <h3>AI-Driven Equity Research Agent — NVIDIA</h3>
+        <p>Within a team project researching NVIDIA, I independently designed and built an LLM-powered research agent that pulls financial data and valuation inputs to draft equity research notes; it was later integrated into the team's wider research pipeline.</p>
+        <div class="tags">
+          <span>Python</span><span>LLM</span><span>Equity Research</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media project-media-chart">
+          <svg viewBox="0 0 320 220" class="roc-chart" role="img" aria-label="ROC curve comparing Transformer, Random Forest and Logistic Regression models">
+            <line x1="40" y1="10" x2="40" y2="180" stroke="#C9BFA8" stroke-width="1"/>
+            <line x1="40" y1="180" x2="300" y2="180" stroke="#C9BFA8" stroke-width="1"/>
+            <line x1="40" y1="180" x2="300" y2="10" stroke="#D8CFBC" stroke-width="1" stroke-dasharray="3,3"/>
+            <path d="M40,180 L55,95 L75,65 L110,42 L160,26 L220,16 L300,10" fill="none" stroke="#7A2E3A" stroke-width="2.4"/>
+            <path d="M40,180 L60,110 L85,78 L130,52 L185,32 L245,18 L300,10" fill="none" stroke="#9AA3AF" stroke-width="2" stroke-dasharray="5,3"/>
+            <path d="M40,180 L70,130 L100,98 L150,68 L205,42 L260,22 L300,10" fill="none" stroke="#C9A14A" stroke-width="2" stroke-dasharray="2,3"/>
+            <text x="44" y="22" font-size="10" fill="#5A5347">Transformer (AUC = 0.7814)</text>
+            <text x="44" y="36" font-size="10" fill="#8A8373">Random Forest (AUC = 0.7821)</text>
+            <text x="44" y="50" font-size="10" fill="#8A8373">Logistic Regression (AUC = 0.7213)</text>
+            <text x="150" y="200" font-size="10" fill="#8A8373" text-anchor="middle">False Positive Rate</text>
+            <text x="14" y="95" font-size="10" fill="#8A8373" text-anchor="middle" transform="rotate(-90 14 95)">True Positive Rate</text>
+          </svg>
+        </div>
+        <p class="project-index">02 &nbsp;RISK ANALYTICS</p>
+        <h3>Transformer-Based Credit Default Prediction</h3>
+        <p>Designed a Feature-as-Token Transformer architecture for credit-card default prediction and led the methodology and ablation comparisons; the team's final model reached a 0.7814 ROC-AUC with higher recall than a tuned Random Forest baseline.</p>
+        <div class="tags">
+          <span>Python</span><span>Machine Learning</span><span>Credit Risk</span><span>Model Evaluation</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media project-media-photo">
+          <img src="assets/project-treasury.jpg" alt="Portfolio allocation chart and risk metrics table">
+        </div>
+        <p class="project-index">03 &nbsp;TREASURY &amp; PORTFOLIO</p>
+        <h3>Corporate Treasury Reserve Portfolio — Unilever (&pound;500m)</h3>
+        <p>Contributed to a coursework case study modelling a &pound;500m corporate treasury reserve — helping define portfolio constraints, collecting data and documenting methodology — balancing liquidity, duration, credit and FX considerations toward a 4.05% expected yield at 0.65-year duration.</p>
+        <div class="tags">
+          <span>Treasury</span><span>Fixed Income</span><span>Portfolio Construction</span><span>Stress Testing</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience">
+    <div class="experience-inner">
+      <div class="experience-col">
+        <div class="section-head">
+          <p class="eyebrow">Professional Experience</p>
+          <h2>Experience</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span class="timeline-date">Jan 2025</span>
+            <div class="timeline-body">
+              <h4>Audit Intern — KPMG</h4>
+              <p>Cross-checked audit-report figures against supporting financial data and conducted sample testing across client engagements.</p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-date">Sep 2024 – Jan 2025</span>
+            <div class="timeline-body">
+              <h4>Equity Research Assistant — Huachuang Securities</h4>
+              <p>Analysed company fundamentals and market positioning within the consumer/liquor sector; maintained industry datasets and produced market-tracking reports.</p>
+            </div>
+          </li>
+          <li>
+            <span class="timeline-date">Jan 2024 – Feb 2024</span>
+            <div class="timeline-body">
+              <h4>Finance &amp; Audit Assistant — Shandong Qirun Accounting Firm</h4>
+              <p>Reviewed accounting vouchers and prepared financial statements for SME clients.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="experience-photo">
+        <img src="assets/experience-photo.jpg" alt="Linping Zhang outside a UCL building">
+        <blockquote>&ldquo;Understanding the numbers is only the start — the value lies in what they help us decide.&rdquo;</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-inner">
+      <div class="about-photo">
+        <img src="assets/about-photo.jpg" alt="Linping Zhang on the UCL campus">
+      </div>
+      <div class="about-text">
+        <div class="section-head">
+          <p class="eyebrow">A bit about me</p>
+          <h2>About</h2>
+        </div>
+        <p>I'm an MSc Banking and Digital Finance candidate at UCL, with coursework complete and my dissertation submitted — the result is pending. My undergraduate degree is a BSc in Finance from Nanjing Agricultural University (GPA 3.85/4.5, arithmetic average 90.42/100, top 13% of my cohort).</p>
+        <p>My experience spans equity research and audit, supported by academic and project work in credit risk, financial modelling and quantitative analysis. I'm interested in the intersection of finance and data, and enjoy turning complex datasets into clear, decision-relevant insight.</p>
+        <p>Based in London, available to start immediately.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="footer">
+  <div class="footer-inner">
+    <p>Linping Zhang &nbsp;&middot;&nbsp; London, UK</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/linping-zhang-807738386" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Linping030205" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:zhanglinping030205@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
